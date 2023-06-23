@@ -1,0 +1,24 @@
+.main {
+    width: 1000px;
+    display: block;
+    text-align: right;
+
+  input {
+    width: 350px;
+    padding: 15px;
+    font-size: 15px;
+    border: solid 1px lightgray;
+    background-color: lightgray;
+    border-radius: 20px;
+  }
+
+  input:hover {
+    background-color: #222;
+    color: antiquewhite;
+    border: none;
+  }
+
+  input:focus{
+    outline: none;
+  }
+}
