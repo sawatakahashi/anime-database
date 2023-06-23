@@ -1,7 +1,7 @@
 .main {
-    width: 1000px;
-    display: block;
-    text-align: right;
+  width: 1000px;
+  display: block;
+  text-align: right;
 
   input {
     width: 350px;
@@ -18,7 +18,20 @@
     border: none;
   }
 
-  input:focus{
+  input:focus {
     outline: none;
+  }
+
+  @media (max-width: 393px) {
+    width: 0.6rem;
+    margin-left: 50px;
+
+    .search {
+      margin-left: 100px;
+
+      input {
+        width: 200px;
+      }
+    }
   }
 }

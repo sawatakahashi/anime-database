@@ -8,4 +8,12 @@ article {
     text-decoration: none;
   }
 
+  @media (max-width: 393px) {
+    width: 100%;
+    margin-left: 60px;
+
+    img {
+      padding: 10px;
+    }
+  }
 }
